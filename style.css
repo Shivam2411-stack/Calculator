@@ -1,0 +1,97 @@
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 20px;
+}
+
+.display {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+#history {
+    font-size: 0.8em;
+    color: #888;
+}
+
+#current {
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn.function {
+    background-color: #888;
+}
+
+.btn.operator {
+    background-color: #f90;
+}
+
+.btn.operator:hover {
+    background-color: #fc0;
+}
+
+/* Responsive Design for phones */
+@media screen and (max-width: 600px) {
+    .calculator {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .display {
+        font-size: 1.5em;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .btn {
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+    }
+}
