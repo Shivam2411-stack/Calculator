@@ -1,4 +1,4 @@
-# Calculator (Basic Calculator)
+# Calculator (Advanced Calculator)
 Overview<br>
 Calculator is a simple web-based calculator designed with HTML, CSS, and JavaScript.<br> 
 This calculator performs basic arithmetic operations including addition, subtraction, multiplication, and division.<br> 
