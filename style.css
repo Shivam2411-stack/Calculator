@@ -72,7 +72,6 @@ body {
     background-color: #fc0;
 }
 
-/* Responsive Design for phones */
 @media screen and (max-width: 600px) {
     .calculator {
         width: 100%;
