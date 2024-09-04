@@ -1,4 +1,6 @@
-
+*{
+box-sizing-border-box;
+}
 
 body {
     background-color: #222;
@@ -102,6 +104,7 @@ body {
 @media screen and (max-width:600px) {
     .calculator{
         width: 90%;
+        max-width: 350px;
         padding: 12px;
     }
     .display{
