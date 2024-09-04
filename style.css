@@ -100,7 +100,7 @@ body {
 /* Responsive Design for phones */
 @media screen and (max-width: 600px) {
     .calculator {
-        width: 100%;
+        width: 98%;
         padding: 10px;
     }
 
