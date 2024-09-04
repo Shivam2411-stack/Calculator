@@ -77,7 +77,7 @@ function calculateResult() {
         case '*': result = num1 * num2; break;
         case '/': result = num1 / num2; break;
         case 'sqrt': result = Math.sqrt(num1); break;
-        case 'exp': result = num1 * Math.pow(10, num2); break;
+        case 'exp': result = Math.pow(num1, num2); break;
         default: result = 'Error'; break;
     }
 
