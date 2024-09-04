@@ -104,10 +104,10 @@ body {
 
 
 @media screen and (max-width: 600px) {
-    .calculator {
-        width: 95%; 
-        padding: 8px;
-        max-width: 550px; 
+    .calculator {        
+        width: 85%; 
+        padding: 10px;
+        max-width: 400px; 
     }
 
     .display {
